@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\Spare365angular11061-23062021\\spare365angular2206 (1)"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\ZoomAngular1\\RangeFilterPrice"
+		},
+		{
+			"path": "..\\..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "RangeFilterPrice",
+		"liveServer.settings.port": 5501
+	}
+}

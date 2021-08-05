@@ -1,0 +1,14 @@
+<p>home works!</p>
+private populateProducts() { 
+    this.productService.getAll().subscribe(products => {
+      this.products = products;
+
+      this.route.queryParamMap.subscribe(params => {
+
+          if(params.get('price') || this.price) {
+          this.price= params.get('price');
+          this.applyFilterPrice();
+        } 
+      });
+    }); 
+  }
